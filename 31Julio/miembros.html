@@ -1,0 +1,82 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aespa</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <nav>
+                <ol>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="#">Miembros</a></li>
+                </ol>
+            </nav>
+    </header>
+    <main>
+        <h3>Formulario</h3>
+        <!-- En action debería tener una liga a un PHP por ejemplo. -->
+        <form action="" method="get">
+            <label for="name">Nombre:</label>
+            <input type="text" name="fname">
+            <label for="name">Apellido:</label>
+            <input type="text" name="lname">
+            <label for="email">email</label>
+            <input type="email" name="email">
+            <input type="submit" value="Suscribirme">
+        </form>
+        <h3>
+            Formulario 2
+        </h3>
+            <form action="" method="get">
+            <fieldset>
+                <legend>¿Cuál prefieres?</legend>
+                <label for=""><input type="radio" name="radio" valor="karina">Karina</label>
+                <label for=""><input type="radio" name="radio" valor="winter">Winter</label>
+                <button>Save</button>
+            </fieldset>
+        </form>
+        <h3>Formulario 3</h3>
+        <form action="">
+        <label for="navegadores">¿Qué navegador estás usando?</label>
+        <input list="navegadores" name="navegadores" placeholder="Elige navegador">
+        <datalist id="navegadores">
+            <optgroup>
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="Brave">
+                <option value="Chrome">
+
+                                 </option>
+                                </option>
+                            </option>
+                        </option>
+                    </option>
+                </option>
+            </optgroup>
+        </datalist>
+        <input type="button" value="submit">
+
+        <label for="file">file</label>
+        <progress value="32" max="100">32%</progress>
+    </form>
+    
+    </main>
+    <aside>
+        <h2>Temas relacionados</h2>
+        <ol>
+            <li><a href="">Tema relacionado 1</a></li>
+            <li><a href="">Tema relacionado 2</a></li>
+            <li><a href="">Tema relacionado 3</a></li>
+            <li><a href="">Tema relacionado 4</a></li>
+        </ol>
+    </aside>
+    <footer>
+        <p>Sitio web de SM entertaiment. ®</p>
+    </footer>
+</body>
+</html>
