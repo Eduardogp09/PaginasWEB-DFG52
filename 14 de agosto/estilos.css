@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css/reset.css');
+
+h1 {
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        padding: 1rem;
+}
+header{
+    background-color:rgb(255, 183, 0);
+}
+main{
+    background-color: rgb(255, 142, 22);
+}
+aside{
+    background-color: rgb(245, 83, 47);
+}
+footer{
+    background-color:rgb(247, 23, 23);
+}
+
+/* Diseño responsivo con media queries */
+
+@media (max-width: 600px)  {
+    /* body {
+      background: rgb(161, 42, 42);
+    } */
+    #container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        gap: 1rem;
+    }
+}
+/* Diseño responsivo con media queries, tablet pa arriba */
+@media (min-width: 600px) {
+    /* body {
+      background: rgb(128, 0, 0);
+    } */
+
+    #container{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        gap: 1rem;
+        grid-template-areas:
+        "cabeza cabeza cabeza"
+        "principal principal lado"
+        "pie pie pie"
+        ;
+    }
+    header{
+        grid-area: cabeza;
+    }
+    main{
+        grid-area: principal;
+    }
+    aside{
+        grid-area: lado;
+        /* grid-area: 1 / 2 / 3 / 4; */
+    }
+    footer{
+        grid-area: pie;
+    }
+    ;
+}
