@@ -1,0 +1,30 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+	<title>Proyecto nuevo</title>
+	<style>
+		.s0 { fill: #ffffff;stroke: #000000;stroke-miterlimit:10 } 
+	</style>
+	<g id="Layer 1">
+		<path id="Forma 1" fill-rule="evenodd" class="s0" d="m31.8 15.6l125.2 0.3z"/>
+		<path id="Forma 2" fill-rule="evenodd" class="s0" d="m148 21.4l-101 37.3z"/>
+		<path id="Forma 3" fill-rule="evenodd" class="s0" d="m42.7 68.5l110.4 18.8z"/>
+		<path id="Forma 4" fill-rule="evenodd" class="s0" d="m174.7 95.2l-116.8 35.5z"/>
+		<path id="Forma 5" fill-rule="evenodd" class="s0" d="m47.7 131.3l90.6 29.5z"/>
+		<path id="Forma 6" fill-rule="evenodd" class="s0" d="m142.6 160.9l-40.7-107.2z"/>
+		<path id="Forma 7" fill-rule="evenodd" class="s0" d="m104.4 42.7l-69.7 61z"/>
+		<path id="Forma 8" fill-rule="evenodd" class="s0" d="m34.2 103.5l123.9-43.3z"/>
+		<path id="Forma 9" fill-rule="evenodd" class="s0" d="m175.6 60.4l-145.3-38.2z"/>
+		<path id="Forma 10" fill-rule="evenodd" class="s0" d="m27 22l32.5 94.8z"/>
+		<path id="Forma 11" fill-rule="evenodd" class="s0" d="m60 117.5l86.9-74.6z"/>
+		<path id="Forma 12" fill-rule="evenodd" class="s0" d="m161.5 39.3l-47.3 98.8z"/>
+		<path id="Forma 13" fill-rule="evenodd" class="s0" d="m114.6 138.6l-83.6 19.1z"/>
+		<path id="Forma 14" fill-rule="evenodd" class="s0" d="m29.2 158.5l127 26.5z"/>
+		<path id="Forma 15" fill-rule="evenodd" class="s0" d="m155.5 184.7l-155.5 10.8z"/>
+		<path id="Forma 16" fill-rule="evenodd" class="s0" d="m0 193.5l147.9-55.1z"/>
+		<path id="Forma 17" fill-rule="evenodd" class="s0" d="m172 134.8l-31.4-90.4z"/>
+		<path id="Forma 18" fill-rule="evenodd" class="s0" d="m142.6 42.1l19.9 153.3z"/>
+		<path id="Forma 19" fill-rule="evenodd" class="s0" d="m167.6 188.5l24.8-106.8z"/>
+		<path id="Forma 20" fill-rule="evenodd" class="s0" d="m191.7 124.6l-53.7-114.2z"/>
+		<path id="Forma 21" fill-rule="evenodd" class="s0" d="m178.7 20.4l-172.5 79.6z"/>
+		<path id="Forma 22" fill-rule="evenodd" class="s0" d="m13.8 30.3l143.6 150.3z"/>
+	</g>
+</svg>
