@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lovely Planet</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <header class="borde head">
+        
+        <nav>
+            <ol id="nav-bar">
+                <li><a href="https://play.google.com/store/apps/details?id=com.ImagineComp.ImagineSerie">¡Juega y apoya!</a></li>
+                <li><h2 class="pacifico-regular">My lovely planet</h2></li>
+                <li><a href="https://linktr.ee/mylovelyplanet">Linktree</a></li>
+            </ol>
+        </nav>
+    </header>
+    <div id="instagram-link">
+        <img id="instagram-link-img" src="img/logos/instagram-logo-black.png" />
+        <p id="instagram-title">INSTAGRAM</p>
+        <a href="https://www.instagram.com/mylovelyplanet_official/" target="_blank">
+            <img id="instagram-profile-summary" src="img/profile-summaryjpg.jpg">
+            <img id="hand-click" src="img/hand-click.gif">
+        </a>
+    </div>
+    <main class="intro">
+        <h1>¿Quiénes somos?</h1>
+        <h1>My lovely planet es una asociación que se encarga de apoyar a la siembra de árboles mediante la plataforma de Instagram
+        </h1>
+        
+            
+        <div id="content">
+            <div class="left-content">
+                <p>My lovely planet se dedica a plantar árboles en Madagascar, utilizando una dinámica innovadora en Instagram bajo el lema "Por cada persona que nos siga, plantaremos un árbol".</p> 
+                <br>
+                <p>Cada nuevo seguidor en su perfil de redes sociales se traduce directamente en un árbol plantado, lo que permite a las personas contribuir al reforestamiento de una de las regiones más afectadas por la deforestación en el mundo. Este enfoque no solo promueve la conciencia ambiental, sino que también involucra activamente a la comunidad global en la lucha contra el cambio climático y la conservación de los ecosistemas.</p>
+                <br>
+                <br>
+                <p>Además, la fundación ha lanzado una criptomoneda en la que las personas pueden invertir para apoyar sus actividades. Como una asociación sin fines de lucro, todos los fondos recaudados a través de esta criptomoneda y otras donaciones se destinan íntegramente a la plantación de árboles y proyectos relacionados con la sostenibilidad.</p>
+                <br>
+                <p>Esta combinación de redes sociales y tecnología blockchain permite a la fundación maximizar su impacto, asegurando que cada contribución, por pequeña que sea, se traduzca en una acción tangible para el medio ambiente.</p>
+                <a href="https://dashboard.mylovelyplanet.org/login"><img width="30%" src="img/logo.png" alt="dashboard mylovelyplanet"></a>
+                <a href="https://www.coingecko.com/en/coins/my-lovely-coin"><img class="coin" width="25%" src="img/coin.png" alt="my-lovely-coin"></a>
+            </div>
+            <div class="right-content">
+                <video autoplay muted loop class="video" controls>
+                    <source src="video/video.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+            </div>
+    </main>
+    
+    <footer class="borde pie">
+        <p class="bottom">This website is homework only</p>
+    </footer>
+</div>
+<script src="js/vivus.js"></script>
+<script>
+     new Vivus('my-div', {duration: 700, type: 'sync', file: 'img/colors.svg'},);
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    ScrollReveal().reveal('.head', { delay: 250, easing:'ease-in' });
+    ScrollReveal().reveal('.main', { delay: 500, scale: 0.80 });
+    ScrollReveal().reveal('.lado', { delay: 800, rotate: {x:20, y:50} });
+    ScrollReveal().reveal('.pie', { delay: 1000, distance: '150%', origin:'bottom' });
+    ScrollReveal().reveal('#instagram-link', { delay: 1300, easing:'ease-in' });
+</script>
+</body>
+</html>

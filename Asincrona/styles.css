@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css/reset.css');
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: green;
+}
+
+body{
+    background-image: url(img/forest.jpg);
+    background-size: cover;
+}
+
+.img{
+    width: 30%;
+}
+
+header{
+    background-color:rgba(197, 249, 255, 0.644);
+    text-align: center;
+}
+header a:hover{
+    color: rgb(12, 92, 38);
+}
+header li{
+    list-style: circle;
+    display: inline-block;
+}
+
+header a{
+    text-decoration: underline;
+    color: rgb(81, 31, 31);
+    transition: all .5s ease 0s;
+}
+
+#nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+header, #nav-bar, nav{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: rgba(127, 250, 137, 0.233);
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+
+footer{
+    background-color:rgba(98, 64, 6, 0.621);
+    text-align: center;
+}
+
+.bottom{
+    color: white;
+    padding: 1.5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1rem;
+    grid-template-areas:
+    "cabeza cabeza cabeza"
+    "principal principal principal"
+    "pie pie pie"
+    ;
+}
+header{
+    grid-area: cabeza;
+}
+
+main{
+    grid-area: principal;
+}
+
+footer{
+    grid-area: pie;
+    }
+
+svg{
+    width: 50%;
+}
+
+h1{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(186, 195, 255);
+    
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: azure;
+    }
+
+.intro{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+
+.left-content, .right-content{
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    
+}
+
+.left-content{
+    padding-left: 7rem;
+    line-height: 2rem
+}
+
+.right-content{
+    padding-right: 7rem;
+    padding-left: 10rem;
+}
+
+.video{
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.borde{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.imagen{
+    border-radius: 10px 10px 10px 10px;
+    margin: 1rem;
+}
+
+#instagram-link {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    z-index: 100;
+    background: #833ab4;
+    background: linear-gradient(
+        to right,
+        #833ab4,#fd1d1d,#fcb045
+    );
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#instagram-link:hover {
+    top: 100px;
+    background: black;
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+}
+
+#instagram-link #instagram-link-img {
+    display: block;
+    margin-left: auto;
+    height: 40px;
+    width: 40px;
+}
+
+#instagram-profile-summary {
+    position: fixed;
+    top: 160px;
+    right: 15px;
+    z-index: 200;
+    width: 280px;
+    height: 0;
+}
+
+#hand-click {
+    position: fixed;
+    top: 200px;
+    right: 150px;
+    z-index: 300;
+    width: 60px;
+    height: 0;
+}
+
+#instagram-title {
+    position: fixed;
+    top: 120px;
+    right: 100px;
+    z-index: 300;
+    display: none;
+    color: white;
+    letter-spacing: 4px;
+}
+
+#instagram-link:hover #instagram-profile-summary, #instagram-link:hover #hand-click, #instagram-link:hover #instagram-title {
+    display: block;
+    height: auto !important;
+}
